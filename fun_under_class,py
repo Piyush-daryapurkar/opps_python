@@ -1,0 +1,19 @@
+class cybrom:
+    x=4
+    def amit(self):#self is a argument
+        print("piyush")
+a=cybrom()  
+print(a.x)
+a.amit()
+
+
+#send number as argument
+class cybrom:
+    x=4
+    def amit(self,s):
+        d=45
+        print(d)
+        print("piyush")
+a=cybrom()  
+print(a.x)
+a.amit(10)
